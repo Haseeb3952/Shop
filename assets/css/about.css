@@ -1,0 +1,13 @@
+@import url(style.css);
+@import url(shop.css);
+
+hr {
+  width: 20%;
+  padding: 1px;
+  color: #f30018;
+}
+
+.dark-para {
+  color: #464d65;
+  line-height: 2rem;
+}

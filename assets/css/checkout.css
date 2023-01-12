@@ -1,0 +1,57 @@
+@import url(style.css);
+@import url(shop.css);
+@import url(login.css);
+@import url(confirmation.css);
+
+.background-gray {
+  background-color: #f7f7f7;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+.blue-color {
+  color: #415094;
+}
+
+.customer-para {
+  font-size: 14px;
+  color: #777;
+}
+
+input::placeholder {
+  font-size: 16px;
+  padding-left: 7px;
+}
+
+input .placeholder::after {
+  content: " *";
+  color: tomato;
+}
+
+.lost-password a {
+  text-decoration: none;
+  color: #777;
+  font-size: 15px;
+}
+
+.btn-coupan {
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  transition: 0.4s;
+  color: #415094;
+}
+
+.btn-coupan:hover {
+  background-color: #2577fd !important;
+  color: #fff;
+}
+
+.form-control {
+  border: 1px solid #eee;
+}

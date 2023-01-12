@@ -1,0 +1,44 @@
+@import url(style.css);
+@import url(shop.css);
+
+.order {
+  background-color: #f7f7f7;
+}
+
+.line {
+  border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+}
+
+.line2 {
+  border-top: 1px solid #dee2e6;
+}
+
+.space-top {
+  padding-top: 270px;
+}
+
+.white-para p {
+  font-size: 14px;
+  color: #777;
+}
+
+.terms a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #2577fd;
+}
+
+.terms a:hover {
+  color: #2577fd;
+}
+
+.terms label {
+  font-size: 13px;
+}
+
+@media (max-width: 767px) {
+  .space-top {
+    padding-top: 100px;
+  }
+}

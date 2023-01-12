@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!---------------------------------------------- FavIcon Link --------------------------------------------->
+
+    <link rel="icon" type="image/x-icon" href="/assets/images/accept.png">
+
+    <!------------------------------------------ Custom CSS FIle Link ----------------------------------------->
+
+    <link rel="stylesheet" href="/assets/css/checkout.css">
+
+    <!---------------------------------------------- IconScout cdn -------------------------------------------->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--------------------------------------------- FontAwesome cdn ------------------------------------------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Watch shop | eCommers</title>
+</head>
+
+<body>
+
+    <!---------------------------------------------- Navar Started -------------------------------------------->
+    <section>
+        <div class="container-fluid">
+           <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-4 fixed-top">
+              <div class="container-fluid py-2">
+                 <a class="navbar-brand" href="/"><img src="./assets/images/logo.webp" alt="logo" class="img-fluid"></a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0 mx-auto fw-normal gap-4 mt-1 ">
+                       <li class="nav-item">
+                          <a class="nav-link active mt-md-0 mt-3" aria-current="page" href="/">Home</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="/shop.html">Shop</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                       </li>
+                       <li class="nav-item dropdown-links">
+                          <a class="nav-link active" aria-current="page" href="#">Latest</a>
+                          <ul class="dropdown p-0 d-flex flex-column gap-2">
+                             <li><a href="./shop.html">Product List</a></li>
+                             <li><a href="./details.html">Product Details</a></li>
+                          </ul>
+                       </li>
+                       <li class="nav-item dropdown-links">
+                          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                          <ul class="dropdown p-0 d-flex flex-column gap-2">
+                             <li><a href="./blog.html">Blog</a></li>
+                             <li><a href="./details.html">Blog Details</a></li>
+                          </ul>
+                       </li>
+                       <li class="nav-item dropdown-links">
+                          <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                          <ul class="dropdown p-0 d-flex flex-column gap-2">
+                             <li><a href="./login.html">Login</a></li>
+                             <li><a href="./cart.html">Cart</a></li>
+                              <li><a href="./confirmation.html">Confirmation</a></li>
+                             <li><a href="./checkout.html">Product Checkout</a></li>
+                          </ul>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./contacts.html">Contact</a>
+                       </li>
+                    </ul>
+                    <div class="search-bar d-flex gap-4 text-white">
+                       <a href="#"><i class="uil uil-search fs-5"></i></a>
+                       <a href="#"><i class="uil uil-user fs-5"></i></a>
+                       <a href="#"><i class="uil uil-shopping-cart fs-5"></i></a>
+                    </div>
+                 </div>
+           </nav>
+        </div>
+     </section>
+  
+  
+  
+ 
+
+    <!---------------------------------------------- Navar Ended ---------------------------------------------->
+
+    <!----------------------------------------- About Section Started ----------------------------------------->
+
+    <section class="about-hero d-flex align-items-center justify-content-center">
+        <div class="text-center about-heading pt-5 mt-5">
+            <h1>Checkout</h1>
+        </div>
+    </section>
+
+    <!------------------------------------------ About Section Ended ----------------------------------------->
+    <!------------------------------------ Customer Detail Section Started ----------------------------------->
+
+    <section class="pt-0 pt-md-5">
+        <div class="container pt-md-5 pt-0">
+            <div class="row pt-0 pt-md-5">
+                <div class="background-gray mt-5 py-3 ps-4 mx-md-0">
+                    <p>Returning Customer? <a href="/assets/pages/login.html">Click here to login</a></p>
+                </div>
+                <p class="desc customer-para lh-lg mt-3 ps-0 ps-md-4 ps-3">If you have shopped with us before, please
+                    enter your details in the boxes
+                    below. If you are a new
+                    customer, please proceed to the Billing & Shipping section.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <form>
+                        <div class="mb-md-3 mb-1 mt-md-5 mt-3">
+                            <input type="text" class="form-control py-2" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Username or Email *">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-4">
+                    <form action="">
+                        <div class="mb-3 mt-3 mt-md-5">
+                            <input type="password" class="form-control py-2" id="exampleInputPassword1"
+                                placeholder="Password *">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-between align-items-center">
+                    <button class="btn-login py-3 px-5 bg-transparent fs-5">
+                        Log In
+                    </button>
+                    <div class=" form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label desc me-5" for="exampleCheck1">Remember me</label>
+                    </div>
+                </div>
+                <div class="mt-3 lost-password desc">
+                    <a href="#">Lost your password?</a>
+                </div>
+                <div class="background-gray mt-2 py-3 ps-4 mx-md-0  ">
+                    <p>Have a coupan? <a href="/assets/pages/login.html">Click here to enter your code</a></p>
+                </div>
+                <div class="col-12 col-md-8">
+                    <form>
+                        <div class="mb-md-3 mt-md-3">
+                            <input type="text" class="form-control py-2" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter coupan code">
+                        </div>
+                    </form>
+                    <a href="#">
+                        <button class="btn-coupan py-2 px-5 mt-md-0 mt-4 mb-md-0 mb-2 bg-transparent">
+                            Apply Coupan
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------- Customer Detail Section Ended ------------------------------------>
+
+    <!------------------------------------ Billing Detail Section Started ------------------------------------>
+
+    <section>
+        <div class="container pb-md-5 pb-5">
+            <div class="row pb-md-5 pb-5">
+                <div class="col-md-8 pb-md-5">
+                    <h6 class="fw-bold mt-4 mt-md-5 blue-color ms-1">Billing Details</h6>
+                    <form action="">
+                        <div class="row pb-md-5">
+                            <div class="col-md-6">
+                                <input type="text" placeholder="First Name *" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Last Name *" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" placeholder="Company name" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="phone" placeholder="Phone Number *" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" placeholder="Email Address *" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="mt-3">
+                                <select id="disabledSelect" class="form-select">
+                                    <option>Country</option>
+                                    <option>Pakistan</option>
+                                    <option>Saudi Arabia</option>
+                                    <option>Turkey</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" placeholder="Address Line 01 *" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" placeholder="Address Line 02 *" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" placeholder="Town/City *" class="form-control mt-md-4 mt-3">
+                            </div>
+                            <div class="mt-3">
+                                <select id="disabledSelect" class="form-select">
+                                    <option>District</option>
+                                    <option>Muzaffargarh District</option>
+                                    <option>Multan District</option>
+                                    <option>Lahore District</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" placeholder="Postcode/ZIP" class="form-control mt-md-3 mt-3">
+                            </div>
+                            <div class=" form-check ms-3 mt-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label desc me-5" for="exampleCheck1">Create an account?</label>
+                            </div>
+                            <h6 class="fw-bold mt-4 blue-color ms-1">Shipping Details</h6>
+                            <div class=" form-check ms-3 mt-3 mt-md-4">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label desc me-5" for="exampleCheck1">Ship to a different
+                                    address?</label>
+                            </div>
+                            <textarea class="form-control mt-3 p-0" id="exampleFormControlTextarea1" rows="5"
+                                placeholder="Order Notes"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 ps-md-5 pb-md-5">
+                    <div class="row order mt-5 pb-4">
+                        <table class="bottom-space">
+                            <th class="ps-5 pt-4 pb-2 blue-color">Your Order</th>
+                            <tr class="line">
+                                <th class="ps-md-5 ps-5 py-2 desc blue-color">Product</th>
+                                <th class="pe-md-3 pe-3"> </th>
+                                <th class="ps-3 desc blue-color">Total</th>
+                            </tr>
+                            <tr class="line2">
+                                <th class="ps-md-5 ps-5 gray fw-normal py-2">Fresh Blackberry</th>
+                                <th class="desc">x 02</th>
+                                <th class="gray fw-normal ps-3">$720.00</th>
+                            </tr>
+                            <tr class="line2">
+                                <th class="ps-md-5 ps-5 gray fw-normal py-2 ">Fresh Tomatoes</th>
+                                <th class="desc">x 02</th>
+                                <th class="gray fw-normal ps-3">$720.00</th>
+                            </tr>
+                            <tr class="line2">
+                                <th class="ps-md-5 ps-5 gray fw-normal py-2">Fresh Brocoli</th>
+                                <th class="desc">x 02</th>
+                                <th class="gray fw-normal ps-3">$720.00</th>
+                            </tr>
+                            <tr class="line2">
+                                <th class="ps-md-5 ps-5 py-2 desc blue-color  ">Subtotal</th>
+                                <th> </th>
+                                <th class="gray fw-normal ps-3">$2160.00</th>
+                            </tr>
+                            <tr class="line2">
+                                <th class="ps-md-5 ps-5 pb-2 desc blue-color  ">Shipping</th>
+                                <th> </th>
+                                <th class="gray fw-normal">Flat Rate: $50.00</th>
+                            </tr>
+
+                            <tr>
+                                <th class="ps-md-5 ps-5 desc line2 blue-color pt-2">Total</th>
+                                <th class="line2"> </th>
+                                <th class="desc fs-6  line2 pt-3">$2210.00</th>
+                            </tr>
+
+                        </table>
+                        <div class="form-check ms-4 mt-3 p-0 me-0">
+                            <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label ms-2" for="flexRadioDefault1">
+                              Check Payments
+                            </label>
+                          </div>
+                        <div class="col-md-11 ps-0 ps-md-3 pe-0 bg-white ms-3 me-0 mt-3">
+                            <div class="white-para desc mx-md-2 lh-lg py-3">
+                                <p>Please send a check to Store Name, Store <span class="divider"></span> Street, Store
+                                    Town, Store State / County, <span class="divider"></span> Store Postcode.</p>
+                            </div>
+                        </div>
+                        <div class="form-check ms-4 mt-3 p-0 me-0">
+                            <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label ms-2" for="flexRadioDefault1">
+                              Paypal
+                            </label>
+                          </div>
+                          <div class="col-md-11 ps-0 ps-md-3 pe-0 bg-white ms-3 me-0 mt-3">
+                            <div class="white-para desc mx-md-2 lh-lg py-3">
+                                <p>Please send a check to Store Name, Store <span class="divider"></span> Street, Store
+                                    Town, Store State / County, <span class="divider"></span> Store Postcode.</p>
+                            </div>
+                        </div>
+                        <div class="terms form-check ms-3 mt-2">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label desc" for="exampleCheck1">I have read and accept the <a href="#"> terms and conditions*</a></label>
+                        </div>
+                        <div class="mt-2">
+                            <a href="#">
+                                <button class="py-4 btn-login text-uppercase w-100">
+                                    Proceed to paypal
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------- Billing Detail Section Ended ------------------------------------->
+
+    <!------------------------------------------ Footer Section Started --------------------------------------->
+
+    <section class="mt-5 pt-md-5">
+        <footer>
+            <div class="container pt-md-5">
+                <div class="row gy-3">
+                    <div class="col-12 col-md-3">
+                        <a href="#"> <img src="/assets/images/logo.webp" alt="" class="img-fluid"> </a>
+                        <p class="pt-5 fs-6 simple">Asorem ipsum adipolor sdit amet, consectetur
+                            adipisicing elitcf sed do eiusmod tem.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4 class="fw-bold fs-5">Quick Links</h4>
+                        <ul class="mt-4 fs-5 list-item p-0 d-flex flex-column gap-2">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Offers & Discounts</a></li>
+                            <li><a href="#">Get Coupon</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4 class="fw-bold fs-5">New Products</h4>
+                        <ul class="mt-4 fs-5 list-item p-0 d-flex flex-column gap-2">
+                            <li><a href="#">Woman Cloth</a></li>
+                            <li><a href="#">Fashion Accessories</a></li>
+                            <li><a href="#">Man Accessories</a></li>
+                            <li><a href="#">Rubber Made Toys</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4 class="fw-bold fs-5">Support</h4>
+                        <ul class="mt-4 fs-5 list-item p-0 d-flex flex-column gap-2">
+                            <li><a href="#">Frequently Asked Questions</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Report a Payment Issue</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="mt-5">
+                <div class="row   align-items-center my-4">
+                    <div class="col-12 col-md-8 simple text-center">
+                        <p class="fs-6">Copyright ©2023 All rights reserved | This template is made with <i
+                                class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Abdul Haseeb</a></p>
+                    </div>
+                    <div class="col-12 col-md-4 p-md-0 py-4">
+                        <div class="social-icons d-flex gap-4 fs-6 justify-content-center">
+                           <a href="https://facebook.com/username.haseeb" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                           <a href="https://twitter.com/username_haseeb" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                           <a href="https://www.instagram.com/username_haseeb/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                           <a href="https://www.youtube.com/channel/UCXWtrYQ6EZrZGZ3Wd4j7Pbw" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-------------------------------------------- Footer Section Started ------------------------------------->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+       -->
+</body>
+
+</html>

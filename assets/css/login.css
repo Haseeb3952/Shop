@@ -19,6 +19,15 @@
   padding: 200px 0px;
 }
 
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #777;
+}
+
 .btn-account {
   border: 1px solid #fff;
   transition: 0.4s;

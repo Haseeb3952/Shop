@@ -33,6 +33,7 @@
 
 <body>
     <!---------------------------------------------- Navar Started -------------------------------------------->
+    
     <section>
         <div class="container-fluid">
            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-4 fixed-top">
@@ -54,13 +55,18 @@
                        <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="./about.html">About</a>
                        </li>
-                       <li class="nav-item dropdown-links">
-                          <a class="nav-link active" aria-current="page" href="#">Latest</a>
-                          <ul class="dropdown p-0 d-flex flex-column gap-2">
-                             <li><a href="./shop.html">Product List</a></li>
-                             <li><a href="./details.html">Product Details</a></li>
-                          </ul>
-                       </li>
+                       <li class="nav-item dropdown-links position-relative">
+                        <div class="position-relative">
+                           <a class="nav-link active" aria-current="page" href="#">Latest</a>
+                        <div class="position-absolute text-white px-2 shadow ms-5 rounded-pill hot">
+                           Hot
+                        </div>
+                        </div>
+                        <ul class="dropdown p-0 d-flex flex-column gap-2">
+                           <li><a href="./shop.html">Product List</a></li>
+                           <li><a href="./details.html">Product Details</a></li>
+                        </ul>
+                     </li>
                        <li class="nav-item dropdown-links">
                           <a class="nav-link active" aria-current="page" href="#">Blog</a>
                           <ul class="dropdown p-0 d-flex flex-column gap-2">
@@ -92,8 +98,9 @@
      </section>
   
   
-     <!---------------------------------------------- Navar Ended ---------------------------------------------->
-    <!----------------------------------------- About Section Started ----------------------------------------->
+    <!---------------------------------------------- Navar Ended ---------------------------------------------->
+   
+     <!----------------------------------------- About Section Started ----------------------------------------->
 
     <section class="about-hero d-flex align-items-center justify-content-center">
         <div class="text-center about-heading pt-5 mt-5">
@@ -133,8 +140,17 @@
                 <div class="col-2 col-md-2 gray">
                     <p>$360.00</p>
                 </div>
-                <div class="col-2 col-md-2">
-
+                <div class="col-2 col-md-2 p-0">
+                    <div class="increment_decrement">
+                         <div class="input-group">
+                            <button type="button" class="btn btn-outline-secondary px-4"
+                                wire:click.prevent="removeCard" disabled>-</button>
+                            <input type="text" class="form-control bg-white text-center"
+                                value="1" disabled readonly>
+                            <button type="button" class="btn btn-outline-secondary px-4"
+                                wire:click.prevent="addCard" >+</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-2 col-md-2 gray">
                     $7200.00
@@ -151,8 +167,17 @@
                 <div class="col-2 col-md-2 gray">
                     <p>$360.00</p>
                 </div>
-                <div class="col-2 col-md-2">
-
+                <div class="col-2 col-md-2 p-0">
+                    <div class="increment_decrement">
+                         <div class="input-group">
+                            <button type="button" class="btn btn-outline-secondary px-4"
+                                wire:click.prevent="removeCard" disabled>-</button>
+                            <input type="text" class="form-control bg-white text-center"
+                                value="1" disabled readonly>
+                            <button type="button" class="btn btn-outline-secondary px-4"
+                                wire:click.prevent="addCard" >+</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-2 col-md-2 gray">
                     $7200.00

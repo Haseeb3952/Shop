@@ -34,6 +34,11 @@ nav {
   color: #ff2020 !important;
 }
 
+.hot {
+  font-size: 13px;
+  background-color: #ff003c;
+  bottom: 30px;
+}
 .dropdown-links {
   position: relative;
   padding: 0px 0px 8px;

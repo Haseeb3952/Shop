@@ -30,6 +30,10 @@ input {
   border: none;
 }
 
+.form-control {
+  border: none;
+}
+
 .news {
   border: 2px solid #fff;
   border-radius: 40px;

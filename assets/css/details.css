@@ -34,6 +34,11 @@ input {
   border: none;
 }
 
+.form-control:focus {
+  outline: none;
+  border: none;
+}
+
 .news {
   border: 2px solid #fff;
   border-radius: 40px;

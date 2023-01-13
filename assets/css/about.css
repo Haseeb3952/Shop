@@ -11,3 +11,8 @@ hr {
   color: #464d65;
   line-height: 2rem;
 }
+
+.gray-line {
+  width: 100%;
+  color: #464d65;
+}

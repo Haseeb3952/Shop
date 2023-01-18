@@ -124,15 +124,14 @@
                 </div>
                 <hr class="mt-2">
             </div>
-            <div class="row d-flex align-items-center">
-                <div class="col-5 col-md-2">
+                <!-- <div class="col-5 col-md-2">
                     <img src="/assets/images/card1.webp" alt="" class="img-fluid border  ">
                 </div>
                 <div class="col-8 col-md-4 gray">
                     <p>Minimalistic shop for multipurpose use</p>
                 </div>
                 <div class="col-2 col-md-2 gray">
-                    <p>$360.00</p>
+                    
                 </div>
                 <div class="col-2 col-md-2 p-0">
                     <div class="increment_decrement">
@@ -147,8 +146,44 @@
                     </div>
                 </div>
                 <div class="col-2 col-md-2 gray">
-                    $7200.00
-                </div>
+                    
+                </div> -->
+                <div class="row d-flex align-items-center">
+                    <table>
+                        <tr>
+                            <th>Product</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Quantity</th>
+                            <th class="text-center">Total</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-md-flex align-items-center gap-4">
+                                    <div class="fit">
+                                        <img src="/assets/images/card1.webp" alt="" class="img-fluid ">
+                                    </div>
+                                    <div class="fit">
+                                        <p>Minimalistic shop for multipurpose use</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><p>$360.00</p></td>
+                            <td class="px-md-5">
+                                <div class="increment_decrement">
+                                    <div class="input-group">
+                                       <button type="button" class="btn btn-outline-secondary px-4"
+                                           wire:click.prevent="removeCard" disabled>-</button>
+                                       <input type="text" class="form-control bg-white text-center"
+                                           value="1" disabled readonly>
+                                       <button type="button" class="btn btn-outline-secondary px-4"
+                                           wire:click.prevent="addCard" >+</button>
+                                   </div>
+                               </div>
+                            </td>
+                            <td><p>$7200.00</p></td>
+                            <!-- <td><p>Minimalistic shop for multipurpose use</p></td> -->
+                        </tr>
+                    </table>
             </div>
             <hr class="my-4">
             <div class="row d-flex align-items-center">
@@ -272,8 +307,8 @@
                     </div>
                 </div>
                 <hr class="my-4">
-                <div class="d-flex justify-content-end pb-md-5 mb-md-5">
-                    <div class="col-12 col-md-5 d-flex gap-2 pb-md-5 mb-md-5">
+                <div class="d-flex justify-content-md-end justify-content-center pb-md-5 mb-md-5">
+                    <div class="col-10 col-md-5 d-flex gap-2 pb-md-5 mb-md-5">
                         <button class="btn-update px-md-5 py-md-3 py-3 px-3 rounded desc ">
                             Continue Shopping 
                         </button>

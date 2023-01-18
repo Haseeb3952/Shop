@@ -18,3 +18,19 @@
   font-size: 12px;
   font-weight: 600;
 }
+
+.fit {
+  width: fit-content;
+}
+
+.fit img {
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 787px) {
+  .fit {
+    display: flex;
+    flex-direction: column;
+  }
+}

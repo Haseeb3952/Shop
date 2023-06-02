@@ -39,6 +39,7 @@ nav {
   background-color: #ff003c;
   bottom: 30px;
 }
+
 .dropdown-links {
   position: relative;
   padding: 0px 0px 8px;
@@ -101,9 +102,11 @@ nav {
   0% {
     transform: scale((1));
   }
+
   50% {
     transform: scale(1.01);
   }
+
   100% {
     transform: scale(1);
   }
@@ -325,6 +328,7 @@ nav {
   .watch-image img {
     display: none;
   }
+
   .next-video {
     padding: 15px 100px 15px 80px;
     display: flex;

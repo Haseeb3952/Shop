@@ -83,8 +83,8 @@
                     </ul>
                     <div class="search-bar d-flex gap-4 text-white">
                        <a href="#"><i class="uil uil-search fs-5"></i></a>
-                       <a href="#"><i class="uil uil-user fs-5"></i></a>
-                       <a href="#"><i class="uil uil-shopping-cart fs-5"></i></a>
+                        <a href="./login.html"><i class="uil uil-user fs-5"></i></a>
+                       <a href="./cart.html"><i class="uil uil-shopping-cart fs-5"></i></a>"></i></a>"></i></a>
                     </div>
                  </div>
            </nav>
@@ -107,47 +107,7 @@
     <!------------------------------------------ Product Section Started ------------------------------------------>
 
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-5 col-md-5 mt-md-5 pt-md-5">
-                    <p class="gray mt-md-5 pt-md-5">Product</p>
-                </div>
-                <div class="col-1 col-md-1"></div>
-                <div class="col-2 col-md-2 mt-md-5 pt-md-5">
-                    <p class="mt-md-5 pt-md-5 gray">Price</p>
-                </div>
-                <div class="col-2 col-md-2 mt-md-5 pt-md-5">
-                    <p class="mt-md-5 pt-md-5 gray">Quantity</p>
-                </div>
-                <div class="col-2 col-md-2 mt-md-5 pt-md-5">
-                    <p class="mt-md-5 pt-md-5 gray">Total</p>
-                </div>
-                <hr class="mt-2">
-            </div>
-                <!-- <div class="col-5 col-md-2">
-                    <img src="/assets/images/card1.webp" alt="" class="img-fluid border  ">
-                </div>
-                <div class="col-8 col-md-4 gray">
-                    <p>Minimalistic shop for multipurpose use</p>
-                </div>
-                <div class="col-2 col-md-2 gray">
-                    
-                </div>
-                <div class="col-2 col-md-2 p-0">
-                    <div class="increment_decrement">
-                         <div class="input-group">
-                            <button type="button" class="btn btn-outline-secondary px-4"
-                                wire:click.prevent="removeCard" disabled>-</button>
-                            <input type="text" class="form-control bg-white text-center"
-                                value="1" disabled readonly>
-                            <button type="button" class="btn btn-outline-secondary px-4"
-                                wire:click.prevent="addCard" >+</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2 col-md-2 gray">
-                    
-                </div> -->
+        <div class="container mt-md-5 pt-md-5">  
                 <div class="row d-flex align-items-center">
                     <table>
                         <tr>
@@ -181,37 +141,44 @@
                                </div>
                             </td>
                             <td><p>$7200.00</p></td>
-                            <!-- <td><p>Minimalistic shop for multipurpose use</p></td> -->
+                         
                         </tr>
-                    </table>
+                </table>
             </div>
-            <hr class="my-4">
+            <hr>
+ 
             <div class="row d-flex align-items-center">
-                <div class="col-5 col-md-2">
-                    <img src="/assets/images/card2.webp" alt="" class="img-fluid border  ">
-                </div>
-                <div class="col-8 col-md-4 gray">
-                    <p>Minimalistic shop for multipurpose use</p>
-                </div>
-                <div class="col-2 col-md-2 gray">
-                    <p>$360.00</p>
-                </div>
-                <div class="col-2 col-md-2 p-0">
-                    <div class="increment_decrement">
-                         <div class="input-group">
-                            <button type="button" class="btn btn-outline-secondary px-4"
-                                wire:click.prevent="removeCard" disabled>-</button>
-                            <input type="text" class="form-control bg-white text-center"
-                                value="1" disabled readonly>
-                            <button type="button" class="btn btn-outline-secondary px-4"
-                                wire:click.prevent="addCard" >+</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2 col-md-2 gray">
-                    $7200.00
-                </div>
-            </div>
+                <table>
+                    
+                    <tr>
+                        <td>
+                            <div class="d-md-flex align-items-center gap-4">
+                                <div class="fit">
+                                    <img src="/assets/images/card2.webp" alt="" class="img-fluid ">
+                                </div>
+                                <div class="fit">
+                                    <p>Minimalistic shop for multipurpose use</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td><p>$360.00</p></td>
+                        <td class="px-md-5">
+                            <div class="increment_decrement">
+                                <div class="input-group">
+                                   <button type="button" class="btn btn-outline-secondary px-4"
+                                       wire:click.prevent="removeCard" disabled>-</button>
+                                   <input type="text" class="form-control bg-white text-center"
+                                       value="1" disabled readonly>
+                                   <button type="button" class="btn btn-outline-secondary px-4"
+                                       wire:click.prevent="addCard" >+</button>
+                               </div>
+                           </div>
+                        </td>
+                        <td><p>$7200.00</p></td>
+                        <!-- <td><p>Minimalistic shop for multipurpose use</p></td> -->
+                    </tr>
+            </table>
+        </div>
             <hr class="my-4">
             <div class="row">
                 <div class="d-flex justify-content-between">
@@ -340,10 +307,10 @@
                     <div class="col-12 col-md-3">
                         <h4 class="fw-bold fs-5">Quick Links</h4>
                         <ul class="mt-4 fs-5 list-item p-0 d-flex flex-column gap-2">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Offers & Discounts</a></li>
+                            <li><a href="./about.html">About</a></li>
+                                            <li><a href="#">Offers & Discounts</a></li>
                             <li><a href="#">Get Coupon</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./contacts.html">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-3">
